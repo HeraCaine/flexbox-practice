@@ -137,7 +137,7 @@ table {
 
 
 body {
-  margin: 5%;
+  margin: 3%;
   }
 
 nav {
@@ -161,13 +161,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 header h1 {
   background-color: red;
-  font-size: 35px;
+  font-size: 60px;
   color: mistyrose;
-  text-decoration: 
+  margin: 20px;
+  height: 75px;
   }
 
   .blinking{
@@ -244,6 +247,6 @@ section {
 }
 
 main {
-  padding: 10px;
+  padding: 5px;
   border: 5px white dotted;
   }
