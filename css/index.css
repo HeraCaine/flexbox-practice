@@ -127,3 +127,121 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/*------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color:midnightblue;
+}
+
+
+body {
+  margin: 5%;
+  }
+
+nav {
+height: 50px;
+
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
+
+ a {
+    color: mistyrose;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  background-color: red;
+  font-size: 35px;
+  color: mistyrose;
+  text-decoration: 
+  }
+
+  .blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: mistyrose;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: mistyrose;    }
+}
+
+header p {
+  background-color: orangered
+  
+}
+section {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.first article:nth-child(1) {
+  background-color: orange;
+  border: 5px white;
+  border-style: dotted solid double dashed;
+  margin: 10px;
+}
+
+.first article:nth-child(2) {
+  background-color: gold;
+  border: 5px white outset;
+  margin: 10px;
+}
+
+.first article:nth-child(3) {
+  background-color: yellow;
+  border: 5px white inset;
+  margin: 10px;
+}
+
+.first article:nth-child(4) {
+  background-color: yellowgreen;
+  border: 5px white ridge;
+  margin: 10px;
+}
+
+
+.second article:nth-child(1) {
+  background-color: green;
+  border: 5px white groove;
+  margin: 10px;
+}
+
+.second article:nth-child(2) {
+  background-color: teal;
+  border: 5px white double;
+  margin: 10px;
+}
+
+.second article:nth-child(3) {
+  background-color: lightskyblue;
+  border: 5px white solid;
+  margin: 10px;
+}
+
+.second article:nth-child(4) {
+  background-color: blueviolet;
+  border: 5px white dashed;
+  margin: 10px;
+}
+
+main {
+  padding: 10px;
+  border: 5px white dotted;
+  }
