@@ -188,6 +188,8 @@ header p {
 section {
   display: flex;
   flex-direction: row;
+  margin: 10%;
+  border: 10px white outset;
   
 }
 
@@ -195,50 +197,50 @@ section {
   background-color: orange;
   border: 5px white;
   border-style: dotted solid double dashed;
-  margin: 10px;
+  margin: 20px;
 }
 
 .first article:nth-child(2) {
   background-color: gold;
   border: 5px white outset;
-  margin: 10px;
+  margin: 20px;
 }
 
 .first article:nth-child(3) {
   background-color: yellow;
   border: 5px white inset;
-  margin: 10px;
+  margin: 20px;
 }
 
 .first article:nth-child(4) {
   background-color: yellowgreen;
   border: 5px white ridge;
-  margin: 10px;
+  margin: 20px;
 }
 
 
 .second article:nth-child(1) {
   background-color: green;
   border: 5px white groove;
-  margin: 10px;
+  margin: 20px;
 }
 
 .second article:nth-child(2) {
   background-color: teal;
   border: 5px white double;
-  margin: 10px;
+  margin: 20px;
 }
 
 .second article:nth-child(3) {
   background-color: lightskyblue;
   border: 5px white solid;
-  margin: 10px;
+  margin: 20px;
 }
 
 .second article:nth-child(4) {
   background-color: blueviolet;
   border: 5px white dashed;
-  margin: 10px;
+  margin: 20px;
 }
 
 main {
